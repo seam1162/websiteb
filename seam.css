@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #1B1346;
+    min-height: 68;
+    min-width:   50%;
+    position: sticky;
+    top: 0px;
+    
+
+
+ }
+ 
+ .main-navbar .logo h1{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2.5px;
+    margin-left: 250px;
+     
+    
+
+ }
+ .main-navbar .logo h1 span{
+    font-size: 60px;
+    color: wheat;
+ }
+ .main-navbar ul{
+     display: flex;
+    padding-left: 30px;
+     min-width: 400px;
+     align-items: center;
+     margin-right: 450px;
+     
+
+     
+ }
+ .main-navbar ul li{
+    list-style-type: none;
+    width: 120px;
+    padding: 12px 10px;
+    transition: 0.5s;
+ }
+ .main-navbar ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    
+ }
+ .main-navbar ul li:hover{
+    background-color: lightcoral;
+    border-radius: 5px;
+   
+ }
+.heroarea{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.189) ,rgba(0, 0, 0, 0.276)),  url("jefferson-santos-9SoCnyQmkzI-unsplash.jpg");
+    height: 92.5vh;
+    background-position: center;background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    min-width: 600px;
+    min-height: 600px;
+     
+}
+
+ .heroarea .form-andtitele{
+    margin: auto;
+    padding-top: 15%;
+ }
+ .heroarea h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    opacity: 0.8; 
+    padding-bottom: 35px;  
+    text-transform: capitalize;
+ }
+ .heroarea .form-andtitele form{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .form-andtitele form button{
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    margin-left: 333px;
+    margin-top: 2px;
+    cursor: pointer;
+ }
+ 
+ .form-andtitele form i{
+color: red;
+ }
+ .form-andtitele form i:hover{
+   color: white;
+ }
+ .heroarea .form-andtitele form input{
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+ }
+ .heroarea .form-andtitele form input::placeholder{
+    
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    color: black;
+    opacity: 0.8;
+     
+
+}
+ .heroarea .form-andtitele form button{
+    font-size: 30px;
+    border-radius: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ }
+ .heroarea .form-andtitele form button:hover{
+    background-color:rgba(0, 0, 255, 0.487)  ;
+   
+    opacity: 0.8;
+ }
+ .section-1{
+    height: 145vh;
+    min-width: 600px;
+    background-color: #272260;
+   
+ }
+ .section-1main{
+    width: 1300px;
+    background-color:  #272260;
+    margin: auto;
+    padding-top: 50px ;
+    padding-bottom: 20px;
+
+    
+ }
+.section-1title {
+    display: flex;
+    justify-content: space-between;
+ }
+ .section-1title h1{
+    padding: 10px 10px;
+    color: #007E5E;
+ }
+ .section-1title div{
+    margin-right: 10px;
+ padding: 10px 0px ;
+ }
+ .section-1title div span{
+    padding: 0px 10px;
+ }
+ .section-1title div #span-2{
+    background-color: rgb(228, 218, 238);
+   border-radius: 5px;
+   text-align: center;
+ }
+ .section-1title div #span-2:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+ }
+ .main-picture{
+   display:grid;
+   grid-template-columns:repeat(4,1fr);
+   grid-gap: 20px 15px;
+   padding-top: 30px;
+ }
+ .main-picture img{
+   width: 300px;
+   height: 200px;
+   transition: 0.5s;
+   cursor: pointer;
+ }
+ .main-picture img:hover{
+   transform: scale(1.1);
+   overflow:hidden;
+   border-radius: 10px;
+   
+ }
+ .main-picture .hello{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 17px;
+    padding-top:8px;
+    color: white;
+    opacity: 0.8;
+ }
+
+ .scorlsection{
+   display: flex;
+   justify-content: space-between;
+  
+ }
+ .scorlsection .left-right button{
+   font-size:15px;
+   padding: 10px 10px;
+   width: 120px;
+   text-transform: capitalize;
+   color: white;
+   background-color: #04AA6C;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 14px;
+   opacity: 0.9;
+   transition: 0.5s;
+   border: none;
+    
+ }
+ .scorlsection .left-right button:hover{
+   background-color: rgba(0, 0, 0, 0.411);
+ }
+ .scorlsection .manu-section button{
+   font-size: 20px;
+   margin-top: 20px;
+   width: 30px;
+   padding: 2px 5px;
+   background-color: #04AA6C;
+   opacity: 0.9;
+   transition: 0.5s;
+   border-radius: 5px;
+   border: none;
+   color: white;
+ }
+ .scorlsection .manu-section button:hover{
+   background-color: rgba(0, 0, 0, 0.411);
+ }
+ footer{
+   background-color: #581B63;
+   height: 40vh;
+   min-width: 600px;
+   min-height: 300px;
+   padding-top: 120px;
+ }
+.mainfooter  {
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   color: white;
+   opacity: 0.8;
+ }
+
+
+ .mainfooter .box-1{
+    width: 400px;
+    padding: 10px 10px;
+ }
+ .mainfooter .box-1 h1{
+   font-size: 20px;
+   padding-bottom: 10px;
+ }
+ .mainfooter .box-1 p{
+   text-align:justify ;
+   padding-bottom: 10px;
+   
+ }
+ .mainfooter .box-1 span{
+  
+   font-size: 15px;
+   width: 200px;
+   font-weight: bold;
+ }
+ .mainfooter .box-2{
+   width: 400px;
+   padding: 10px 10px; 
+   
+   color: white;
+   opacity: 0.8;
+   padding-left: 225px;
+ }
+ .mainfooter .box-2 h1{
+   font-size: 24px;
+   padding-bottom: 10px;
+ }
+ .mainfooter .box-2 h6{
+   font-size: 15px;
+   line-height: 20.2px;
+   text-align: justify;
+ }
+ .mainfooter .box-3{
+   width: 400px;
+ }
+ .mainfooter .box-3 i{
+   font-size: 20px;
+   background-color: #170F3F;
+   color: white;
+   width:20 px;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   
+ }
+ .mainfooter .box-3 p{
+   font-size: 18px;
+    padding: 10px 10px;
+  
+ }
+ .mainfooter .box-3 span{
+   margin-bottom: 50px;
+   padding-left: 10px;
+   text-align: center;
+   font-weight: bold;
+   word-spacing: 2.5px;
+   padding-bottom: 20px;
+ }
